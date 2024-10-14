@@ -53,3 +53,4 @@ class MyHelper:
 
   def scale_and_normalize(self, df, columns):
     return self.normalizer(self.scaler(df, columns), columns)
+  
